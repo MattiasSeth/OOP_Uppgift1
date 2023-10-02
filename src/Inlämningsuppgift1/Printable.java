@@ -1,2 +1,6 @@
-package Inlämningsuppgift1;public interface Printable {
+package Inlämningsuppgift1;
+
+public interface Printable {
+
+    public void printMe();
 }
