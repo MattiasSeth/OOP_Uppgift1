@@ -1,6 +1,6 @@
 package Inlämningsuppgift1;
 
-public class Växter {
+public class Växter implements Printable{
 
 
 
@@ -25,6 +25,16 @@ public class Växter {
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    @Override
+    public void printMe() {
+
+    }
+
+    @Override
+    public double calculateLiquid() {
+        return 0;
     }
 }
 

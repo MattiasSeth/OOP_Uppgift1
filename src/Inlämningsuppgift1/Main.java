@@ -14,7 +14,12 @@ public class Main {
         Växter meatloaf = new Köttätande("Meatloaf", 0.7);
         Växter olof = new Palm("Olof", 1);
 
-        System.out.println(olof.getName());
+        //System.out.println(olof.getName());
+
+        igge.printMe();
+        olof.printMe();
+        laura.printMe();
+        meatloaf.printMe();
 
     }
 }
