@@ -24,7 +24,11 @@ public class Växter implements Printable{
     }
 
     public void setHeight(double height) {
-        this.height = height;
+        if (height > 0) {
+            this.height = height;
+        } else {
+            throw new IllegalArgumentException("Höjden måste va störra än 0");
+        }
     }
 
     @Override

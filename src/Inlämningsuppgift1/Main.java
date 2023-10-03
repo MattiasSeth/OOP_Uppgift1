@@ -40,7 +40,7 @@ public class Main {
         }
 
         if (nameCheck == false){
-            System.out.println("Fel namn på växten");
+            System.out.println(inputData + " är inte inchekad på hotellet");
         }
 
 
