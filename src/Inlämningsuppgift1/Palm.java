@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Palm extends Växter {
 
 
-    protected Dryck dryck = Dryck.KRANVATTEN;
+    protected Vätska vätska = Vätska.KRANVATTEN;
 
     public Palm (String name, double height){
         super(name, height);
@@ -15,7 +15,7 @@ public class Palm extends Växter {
     public void printMe(){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
-        System.out.println("Palm\n" + dryck.dryckSort + ": " + dfNumber+ " l" );
+        System.out.println("Palm\n" + vätska.liquid + ": " + dfNumber+ " l" );
     }
 
     @Override

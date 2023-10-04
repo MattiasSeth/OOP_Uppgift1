@@ -1,5 +1,6 @@
 package Inlämningsuppgift1;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,5 +18,8 @@ class KöttätandeTest {
         assert (meatloaf.calculateLiquid() == 0.101);
         meatloaf.setHeight(25);
         assert (meatloaf.calculateLiquid() == 5.1);
+
+
+        //Assertions.assertEquals();  // testa dessa oxå
     }
 }

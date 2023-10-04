@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class Köttätande extends Växter {
 
-    protected Dryck dryck = Dryck.PROTEINDRYCK;
+    protected Vätska vätska = Vätska.PROTEINDRYCK;
     private final double DAILY_LIQUID = 0.1;
 
     public Köttätande (String name, double height){
@@ -15,7 +15,7 @@ public class Köttätande extends Växter {
     public void printMe(){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
-        System.out.println("Köttätande växt\n" + dryck.dryckSort + ": " + dfNumber + " l" );
+        System.out.println("Köttätande växt\n" + vätska.liquid + ": " + dfNumber + " l" );
     }
 
     @Override

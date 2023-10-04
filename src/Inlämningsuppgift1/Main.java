@@ -43,27 +43,11 @@ public class Main {
             System.out.println(inputData + " är inte inchekad på hotellet");
         }
 
-
     }
 
     public static void main(String[] args) {
-        /*
-        Växter igge = new Kaktus("Igge", 0.2);
-        Växter laura = new Palm("Laura", 5);
-        Växter meatloaf = new Köttätande("Meatloaf", 0.7);
-        Växter olof = new Palm("Olof", 1);
-        */
-
-
-        /*
-        igge.printMe();
-        olof.printMe();
-        laura.printMe();
-        meatloaf.printMe();
-        */
 
         Main m = new Main();
-        //m.input();
 
     }
 }

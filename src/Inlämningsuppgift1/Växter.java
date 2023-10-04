@@ -1,7 +1,6 @@
 package Inlämningsuppgift1;
 
-public class Växter implements Printable{
-
+public class Växter implements VäxtInterface {
 
 
     private String name;
@@ -24,16 +23,11 @@ public class Växter implements Printable{
     }
 
     public void setHeight(double height) {
-        if (height > 0) {
             this.height = height;
-        } else {
-            throw new IllegalArgumentException("Höjden måste va störra än 0");
-        }
     }
 
     @Override
     public void printMe() {
-
     }
 
     @Override

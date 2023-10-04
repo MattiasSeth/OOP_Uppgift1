@@ -1,6 +1,6 @@
 package Inlämningsuppgift1;
 
-public interface Printable {
+public interface VäxtInterface {
 
     public void printMe();
 

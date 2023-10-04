@@ -1,14 +1,14 @@
 package Inlämningsuppgift1;
 
-public enum Dryck {
+public enum Vätska {
     KRANVATTEN("Kranvatten"),
     PROTEINDRYCK("Proteindryck"),
     MINERALVATTEN("Mineralvatten");
 
 
-    public final String dryckSort;
+    public final String liquid;
 
-    Dryck(String s){
-        dryckSort = s;
+    Vätska(String s){
+        liquid = s;
     }
 }
