@@ -1,7 +1,5 @@
 package Inlämningsuppgift1;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,7 +7,9 @@ public class Main {
 
     // arraylist för växter
     ArrayList<Växter> växtArray = new ArrayList<>();
-    Scanner userInput = new Scanner(System.in);
+    private Scanner userInput = new Scanner(System.in);
+
+
     public String input () {
         System.out.println("Vilken växt ska få vätska?");
         String input = userInput.nextLine();
