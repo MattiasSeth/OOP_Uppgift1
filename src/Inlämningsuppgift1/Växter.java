@@ -27,7 +27,7 @@ public class Växter implements VäxtInterface {
     }
 
     @Override
-    public void printMe() {
+    public void printDailyLiquid() {
     }
 
     @Override

@@ -12,7 +12,7 @@ public class Köttätande extends Växter {
     }
 
     @Override
-    public void printMe(){
+    public void printDailyLiquid(){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
         System.out.println("Köttätande växt\n" + vätska.liquid + ": " + dfNumber + " l" );

@@ -33,7 +33,7 @@ public class Main {
 
         for (int i=0; i<växtArray.size(); i++){
             if(växtArray.get(i).getName().equalsIgnoreCase(inputData)){
-                växtArray.get(i).printMe();
+                växtArray.get(i).printDailyLiquid();
                 nameCheck = true;
                 break;
             }

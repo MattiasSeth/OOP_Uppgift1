@@ -12,7 +12,7 @@ public class Palm extends Växter {
     }
 
 @Override
-    public void printMe(){
+    public void printDailyLiquid(){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
         System.out.println("Palm\n" + vätska.liquid + ": " + dfNumber+ " l" );

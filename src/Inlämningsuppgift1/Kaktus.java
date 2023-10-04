@@ -9,7 +9,7 @@ public class Kaktus extends Växter {
     }
 
 @Override
-    public void printMe(){
+    public void printDailyLiquid(){
         System.out.println("Kaktus\n" + vätska.liquid + ": " + DAILY_LIQUID + " l" );
     }
 
