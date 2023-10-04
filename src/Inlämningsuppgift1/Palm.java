@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Palm extends Växter {
 
 
-    protected Vätska vätska = Vätska.KRANVATTEN;
+    private Vätska vätska = Vätska.KRANVATTEN;
 
     public Palm (String name, double height){
         super(name, height);

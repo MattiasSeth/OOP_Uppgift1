@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class Köttätande extends Växter {
 
-    protected Vätska vätska = Vätska.PROTEINDRYCK;
+    private Vätska vätska = Vätska.PROTEINDRYCK;
     private final double DAILY_LIQUID = 0.1;
 
     public Köttätande (String name, double height){
