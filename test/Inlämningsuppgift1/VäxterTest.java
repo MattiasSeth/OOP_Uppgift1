@@ -21,7 +21,6 @@ class VäxterTest {
         Assertions.assertNotEquals(newName, oldNme);
     }
 
-
     @Test
     void getHeight() {
         double newHeight = 10;

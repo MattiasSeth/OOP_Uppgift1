@@ -1,5 +1,7 @@
 package Inlämningsuppgift1;
 
+import java.text.DecimalFormat;
+
 public class Kaktus extends Växter {
 
     private Vätska vätska = Vätska.MINERALVATTEN;
@@ -8,10 +10,21 @@ public class Kaktus extends Växter {
         super(name, height);
     }
 
-@Override
-    public void printDailyLiquid(){
-        System.out.println("Kaktus\n" + vätska.liquid + ": " + DAILY_LIQUID + " l" );
+    public double getDAILY_LIQUID() {
+        return DAILY_LIQUID;
     }
+
+    public String printString (){
+        DecimalFormat df = new DecimalFormat("0.00");
+        String dfNumber = df.format(calculateLiquid());
+        String result = "Kaktus\n" + vätska.liquid + ": " + getDAILY_LIQUID() + " l";
+
+        return result;
+    }
+@Override
+public void printDailyLiquid(){
+    System.out.println(printString());
+}
 
 
 }

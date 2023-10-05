@@ -10,12 +10,16 @@ public class Köttätande extends Växter {
     public Köttätande (String name, double height){
         super(name, height);
     }
-
-    @Override
-    public void printDailyLiquid(){
+    public String printString (){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
-        System.out.println("Köttätande växt\n" + vätska.liquid + ": " + dfNumber + " l" );
+        String result = "Köttätande växt\n" + vätska.liquid + ": " + dfNumber + " l";
+
+        return result;
+    }
+    @Override
+    public void printDailyLiquid(){
+        System.out.println(printString());
     }
 
     @Override

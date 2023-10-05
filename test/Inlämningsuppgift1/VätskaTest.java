@@ -12,6 +12,5 @@ class VätskaTest {
         Assertions.assertEquals(Vätska.KRANVATTEN.liquid, "Kranvatten");
         Assertions.assertEquals(Vätska.MINERALVATTEN.liquid, "Mineralvatten");
         Assertions.assertEquals(Vätska.PROTEINDRYCK.liquid, "Proteindryck");
-
     }
 }

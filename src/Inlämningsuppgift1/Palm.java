@@ -11,11 +11,17 @@ public class Palm extends Växter {
         super(name, height);
     }
 
-@Override
-    public void printDailyLiquid(){
+    public String printString (){
         DecimalFormat df = new DecimalFormat("0.00");
         String dfNumber = df.format(calculateLiquid());
-        System.out.println("Palm\n" + vätska.liquid + ": " + dfNumber+ " l" );
+        String result = "Palm\n" + vätska.liquid + ": " + dfNumber+ " l";
+
+        return result;
+    }
+
+@Override
+    public void printDailyLiquid(){
+        System.out.println(printString());
     }
 
     @Override
